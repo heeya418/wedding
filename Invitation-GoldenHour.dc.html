@@ -51,7 +51,7 @@
   </div>
 
   <div style="position:relative;height:70vh;min-height:420px;overflow:hidden;">
-    <image-slot id="mA-scene1" shape="rect" placeholder="스냅 사진을 놓아주세요" fit="cover"></image-slot>
+    <image-slot id="mA-scene1" shape="rect" placeholder="스냅 사진을 놓아주세요" fit="cover" src="assets/photo-bouquet.jpg"></image-slot>
   </div>
 
   <div ref="{{ refVenue }}" style="padding:110px 32px 100px;text-align:center;background:#F7EAD3;">
@@ -86,7 +86,7 @@
   <div ref="{{ refDirections }}" style="padding:110px 32px 100px;background:#F7EAD3;">
     <div style="{{ directionsReveal }}">
       <div style="font-family:'Playfair Display',serif;font-size:11px;letter-spacing:0.28em;color:#B5602A;font-weight:600;margin-bottom:22px;text-align:center;">GETTING THERE</div>
-      <image-slot id="mA-map" shape="rounded" radius="10" placeholder="지도 이미지를 놓아주세요" style="width:100%;height:220px;display:block;"></image-slot>
+      <image-slot id="mA-map" shape="rounded" radius="10" placeholder="지도 이미지를 놓아주세요" fit="cover" src="assets/map-golden.svg" style="width:100%;height:220px;display:block;"></image-slot>
       <div style="display:flex;gap:12px;margin-top:14px;">
         <a href="{{ kakaoUrl }}" target="_blank" style="flex:1;text-align:center;padding:12px 0;background:#2B1D12;color:#FBF3E7;border-radius:8px;font-size:13.5px;text-decoration:none;">카카오맵 길찾기</a>
         <a href="{{ naverUrl }}" target="_blank" style="flex:1;text-align:center;padding:12px 0;background:#FFFFFF;color:#2B1D12;border:1px solid rgba(43,29,18,0.25);border-radius:8px;font-size:13.5px;text-decoration:none;">네이버지도 길찾기</a>
